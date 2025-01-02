@@ -24,23 +24,6 @@ function App() {
                 </a>
               </span>
             </div>
-            <div className="header__social">
-              <a className="social-icon social-icon__rounded" href="#">
-                <div>
-                  <FaFacebook size={29} className='bg-none'/>
-                </div>
-              </a>
-              <a className="social-icon social-icon__rounded" href="#">
-                <div>
-                  <FaTwitter size={20} className='ml-2 mt-2 bg-none'/>
-                </div>
-              </a>
-              <a className="social-icon social-icon__rounded" href="#">
-                <div>
-                  <FaGooglePlus size={29} className='bg-none'/>
-                </div>
-              </a>
-            </div>
           </div>
 
           <div className="container">
