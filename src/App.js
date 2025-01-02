@@ -5,7 +5,7 @@ import CountdownToDate from './CountdownTimer';
 
 
 function App() {
-  const targetDate = new Date('2024-12-31T00:00:00');
+  const targetDate = new Date('2025-01-21T00:00:00');
   return (
     <div className="h-full">
       <div className="md-content">
