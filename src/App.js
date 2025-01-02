@@ -62,7 +62,7 @@ function App() {
               </div>
 
               <div>
-                <CountdownToDate targetDate="2024-12-31T23:59:59"/>
+                <CountdownToDate targetDate="2025-01-21T23:59:59"/>
               </div>
 
               <div className="service-wrapper">
