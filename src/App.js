@@ -1,6 +1,6 @@
 import { IconBase } from 'react-icons';
 import './App.css';
-import { FaFacebook, FaTwitter, FaGooglePlus } from 'react-icons/fa6';
+import { FaFacebook, FaTwitter, FaGooglePlus, FaInstagram } from 'react-icons/fa6';
 import CountdownToDate from './CountdownTimer';
 
 
@@ -23,6 +23,15 @@ function App() {
                   <button className='hover:bg-white hover:text-black font-bold text-white'>Send Email</button>
                 </a>
               </span>
+            </div>
+            <div className="header__right">
+              <ul className="social">
+                <li className='hover:bg-white hover:rounded-xl' >
+                  <a className='hover:text-black' href="https://www.instagram.com/nuvante.in/">
+                    <FaInstagram size={30} />
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
 
