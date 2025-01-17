@@ -5,7 +5,7 @@ import CountdownToDate from './CountdownTimer';
 
 
 function App() {
-  const targetDate = new Date('2025-01-21T00:00:00');
+  const targetDate = new Date('2025-02-01T00:00:00');
   return (
     <div className="h-full">
       <div className="md-content">
@@ -45,7 +45,7 @@ function App() {
               </div>
 
               <div>
-                <CountdownToDate targetDate="2025-01-21T23:59:59"/>
+                <CountdownToDate targetDate="2025-02-01T23:59:59"/>
               </div>
 
               <div className="service-wrapper">
